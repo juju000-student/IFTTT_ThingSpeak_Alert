@@ -317,15 +317,7 @@ void loop() {
 
 ---
 
-## 12. 한계와 개선 방향
-- **크레딧 제한**: 무료 플랜은 월 1,000 크레딧이라 실행 횟수가 약 28회로 제한된다. Edge Trigger와 히스테리시스로 불필요한 실행을 줄여야 한다.
-- **단일 장애점**: ThingSpeak, IFTTT, APNs 중 하나만 멈춰도 알림이 오지 않는다. 중요한 경보라면 이메일 Alerts를 함께 두는 이중화를 고려할 수 있다.
-- **보안**: 기기 코드에 Write Key가 평문으로 들어가고 HTTP로 전송된다. HTTPS를 사용하고 키를 주기적으로 재발급하는 게 바람직하다.
-- **값 전달 개수**: IFTTT Webhook은 value1~3만 지원하기 때문에, 여러 센서값을 보내려면 문자열로 합치거나 다른 방식을 써야 한다.
+
 
 ---
 
-## 참고 자료
-- MathWorks, *React to Channel Activity with Notification from IFTTT*
-- MathWorks, *ThingHTTP App* / *React App* 문서
-- IFTTT Help Center, *What is the Webhooks service?*
