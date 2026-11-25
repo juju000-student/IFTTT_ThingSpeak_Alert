@@ -1,4 +1,3 @@
-<img width="1176" height="1092" alt="02_message" src="https://github.com/user-attachments/assets/e62ab453-2076-4870-8fce-8ffec97f8d4d" />
 # IFTTT 모바일 앱으로 알림 받기 — ThingSpeak × IFTTT Webhook 연동
 
 > 창의설계입문 11주차 과제 · 김주영 (202601527)
